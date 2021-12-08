@@ -1,0 +1,66 @@
+.navbar {
+    height: 50px;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbarLeft,.navbarRight{
+    flex:3;
+    display: flex;
+
+}
+
+
+.navbarCenter{
+    flex:6;
+}
+.navbarList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbarListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbarIcon{
+    font-size: 20px;
+    margin-right: 10px;
+    color:green;
+    cursor: pointer;
+}
+.navbarLeft{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.navbarLogoImg{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    object-fit: cover;
+
+    
+}
+
+.navbarPhone{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+.navbarIconPhone{
+    margin-right: 5px;
+    color:lightblue;
+}
