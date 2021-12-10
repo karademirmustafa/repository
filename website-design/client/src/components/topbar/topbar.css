@@ -1,0 +1,76 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    background-color: #3A526A;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+}
+
+.topbarLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.topbarLeftList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.topbarLeftListItem{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color:white;
+    font-size: 12px;
+    font-weight: 300;
+}
+.topbarPhone{
+    line-height: 30px;
+}
+.topbarPhoneIcon{
+   
+    margin-right: 10px;
+    font-size: 12px;
+}
+.topbarLine{
+    height: 15px;
+    border: 1px solid #617588;
+    margin-right: 20px;
+}
+
+.topbarRight{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3A526A;
+
+}
+.topbarButton{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#36B8B0;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+.topbarButton:hover{
+    background-color: #2E363A;
+}
+
+/* @media min-992px {
+    .topbarLeft{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topbarRight{
+        width: 50%;
+    }
+    
+} */
