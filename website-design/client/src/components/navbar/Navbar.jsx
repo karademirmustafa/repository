@@ -4,10 +4,6 @@ import { useState } from "react";
 export default function Navbar() {
   const [showSearch, setShowSearch] = useState(false);
 
-  const handleClick = () => {
-    setShowSearch(false);
-  };
-
   return (
     <div className="navbar">
       <div className="navbarLeft">
