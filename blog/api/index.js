@@ -9,7 +9,7 @@ app.use(cors());
 
 
 
-
+app.use("/api/v1/post", require("./routes/posts"));
 
 app.listen(process.env.PORT, () => {
     mongoose.connect(process.env.MONGO_URI).then(() => {
