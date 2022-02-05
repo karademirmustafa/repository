@@ -10,6 +10,8 @@ app.use(cors());
 
 
 app.use("/api/v1/post", require("./routes/posts"));
+app.use("/api/v1/category", require("./routes/categories"));
+app.use("/api/v1/auth", require("./routes/auth"));
 
 app.listen(process.env.PORT, () => {
     mongoose.connect(process.env.MONGO_URI).then(() => {
